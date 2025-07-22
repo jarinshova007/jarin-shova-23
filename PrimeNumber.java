@@ -16,7 +16,7 @@ import java.util.Scanner;
         boolean isPrime = true; //num is Prime
         for (int i = 2; i <= Math.sqrt(num); i++) {
             if (num % i == 0) {
-                isPrime = false; //num is not prime
+                isPrime = false; //num is not Prime
                 break;
             }
         }
