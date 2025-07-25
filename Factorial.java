@@ -9,9 +9,8 @@ public class Factorial {
         }
 
         System.out.println("The factorial of " + num + " is " + factorial);
-    //System.out.println(factorial);
         return factorial;
-
+        
     }
 
     public static void main(String[] args) {
