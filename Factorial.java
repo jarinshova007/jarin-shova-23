@@ -10,7 +10,7 @@ public class Factorial {
 
         System.out.println("The factorial of " + num + " is " + factorial);
         return factorial;
-        
+
     }
 
     public static void main(String[] args) {
@@ -23,12 +23,9 @@ public class Factorial {
 
             System.out.println("Factorial is not defined for negative numbers");
 
-        } else {
+        } else { 
             Factorial f = new Factorial(); //making an object as the printFactorial method is non-static
-            f.printFactorial(_num);
-            
-            //System.out.println("The factorial of " + _num + " is " + _factorial);
-
+            f.printFactorial(_num); //function call
         }
         
         sc.close();
