@@ -25,7 +25,7 @@ public class Factorial {
 
         } else { 
             Factorial f = new Factorial(); //making an object as the printFactorial method is non-static
-            f.printFactorial(_num); //function call
+            f.printFactorial(_num); //method call
         }
         
         sc.close();
