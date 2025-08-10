@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GoldenBatch {
+public class GoldBatch {
 
         public static boolean isPrime(int n) {
         if (n <= 1) return false;
