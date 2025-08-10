@@ -10,7 +10,7 @@ public class BirthdayGifts {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         BirthdayGifts gift = new BirthdayGifts();
-        // user must input valid dates otherwise program may show wrong output!!!
+        // user must provide valid information as input otherwise program may show wrong output!!!
         System.out.print("Enter birth date (date xx xxxx): ");
         int birthDate = sc.nextInt(), birthMonth  = sc.nextInt(), birthYear  = sc.nextInt();
         System.out.print("Enter current date (xx xx xxxx): ");
