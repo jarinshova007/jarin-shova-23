@@ -12,9 +12,9 @@ public class BirthdayGift {
         int missedBday = sc.nextInt();
 
         int numOfBday = 0; 
-        
+
         // if birth year and current year both are leap years
-        if (birthDate == 29 && birthMonth == 2 && (currentYear % 4 == 0 && currentYear % 100 != 0) || (currentYear % 400 == 0)) {
+        if (birthDate == 29 && birthMonth == 2 && ((currentYear % 4 == 0 && currentYear % 100 != 0) || (currentYear % 400 == 0))) {
             if (currentMonth > 2) {
             for (int i = (birthYear + 1); i <= currentYear; i++) {
                 if ((i % 4 == 0 && i % 100 != 0) || (i % 400 == 0)) {
