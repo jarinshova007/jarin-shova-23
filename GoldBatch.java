@@ -16,20 +16,20 @@ public class GoldBatch {
         System.out.print("Enter an integer number: ");
         int num = sc.nextInt();
 
-        boolean isGolden = false;
+        boolean isGoldBatch = false;
         if (num > 4 && num % 2 == 0) {
             for (int i = 2; i <= num / 2; i++) {
                     int x = i;
                     int y = (num - i);
 
                     if (isPrime(i) && isPrime(num-i)) {
-                        System.out.println(num + " is a Golden Batch number\nbecause " + x + " + " + y + " = " + num + "\n" + x + " and " + y + " are Prime Numbers");
-                        isGolden = true;
+                        System.out.println(num + " is a Gold Batch number\nbecause " + x + " + " + y + " = " + num + "\n" + x + " and " + y + " are Prime Numbers");
+                        isGoldBatch = true;
                         break;
                     }
                 }
             } else {
-                System.out.println(num + " is not a Golden Batch number");
+                System.out.println(num + " is not a Gold Batch number");
             }
 
             sc.close();
