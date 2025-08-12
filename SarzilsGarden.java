@@ -11,7 +11,7 @@ public class SarzilsGarden {
         int width = sc.nextInt();
 
         int treeNumLength = 0;       // in a different logic:
-        int treeNumWidth = 0;        //int treeNumLength = (length / 2) + 1; & int treeNumWidth = (width / 2) + 1;
+        int treeNumWidth = 0;        // int treeNumLength = (length / 2) + 1; & int treeNumWidth = (width / 2) + 1;
 
         for (int i = 0; i <= length; i += 2) {
             treeNumLength = treeNumLength + 1;
