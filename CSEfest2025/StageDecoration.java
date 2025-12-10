@@ -1,3 +1,10 @@
+/* draw the pattern
+            *
+           * *
+          * * *
+           * *
+            * 
+ */
 package CSEfest2025;
 
 import java.util.Scanner;
