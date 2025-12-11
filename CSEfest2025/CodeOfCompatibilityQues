@@ -1,0 +1,94 @@
+The Code of Compatibility
+
+Tani was not an ordinary programmer. While others saw logic and numbers as tools, she believed that every human carried a secret code written by the universe — a pattern of digits that shaped their destiny, relationships, and emotions.
+
+To most, numerology was an ancient superstition, but to Tani, it was an algorithm of life. She called it “The Code of Compatibility.”
+
+Every night, Tani experimented with birth dates. She said:
+
+“Every date is a key — a unique combination of cosmic frequencies.”
+
+According to her, every human has two hidden numbers:
+
+1. Root Number
+
+This represents your instincts, your first reactions, the unchanging part of you.
+It is calculated from the day of birth (DD):
+
+Add digits of DD
+
+Continue reducing until a single digit (1–9) remains
+
+Example:
+27 → 2 + 7 = 9
+
+2. Destiny Number
+
+This represents the path your life will follow — choices, challenges, people you attract.
+It is calculated from the full date (DD + MM + YYYY):
+
+Add all digits
+
+Reduce until a single digit remains
+
+Example:
+28-10-1992 → 2+8+1+0+1+9+9+2 = 32 → 3+2 = 5
+
+
+
+Planetary Friendship Matrix
+
+Each number has Friendly, Enemy, and Neutral numbers.
+
+Number | Friendly        | Enemy           | Neutral
+1      | 1,2,3,5,6,9     | 8               | 4,7
+2      | 1,2,3,5         | 8,4,9           | 7,6
+3      | 1,2,3,5         | 6               | 4,8,7,9
+4      | 1,5,7,6         | 2,9,4,8         | 3
+5      | 1,2,3,5,6       | -               | 4,7,8,9
+6      | 1,4,5,6,7       | 3               | 2,8,9
+7      | 1,3,4,5,6       | 2               | 8,7,9
+8      | 3,5,7           | 1,2,4,8         | 9
+9      | 1,5,3           | 4,2             | 9,7,6,8
+
+
+Scoring
+
+Tani compared two people's Root numbers and Destiny numbers:
+
++5 points → if the numbers are Friends
+
++2 points → if the numbers are Neutral
+
+0 points → if the numbers are Enemies
+
+Total score = Root score + Destiny score
+(Max score = 10)
+
+
+Compatibility Category
+
+9–10 → Highly Compatible
+6–8  → Compatible
+3–5  → Neutral
+0–2  → Conflicting
+
+
+Your Task
+
+Write a program that measures the Code of Compatibility between you and another person using their birth dates.
+
+Input Format
+DD1 MM1 YYYY1
+DD2 MM2 YYYY2
+
+Example:
+
+10 Highly Compatible
+
+Sample Input
+28 10 1992
+25 07 1991
+
+Sample Output
+10 Highly Compatible
